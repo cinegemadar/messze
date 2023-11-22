@@ -1,4 +1,3 @@
-# type: ignore[attr-defined]
 """Unravel the rhythm of poetry with cutting-edge analysis, bringing the art of poetic metrics into the modern era."""
 
 import sys
