@@ -1,0 +1,10 @@
+{
+  "legs": [
+    {"name": "iamb", "pattern": "SL"},
+    {"name": "trochee", "pattern": "LS"},
+    {"name": "spondee", "pattern": "LL"},
+    {"name": "dactyl", "pattern": "LSS"},
+    {"name": "anapest", "pattern": "SSL"},
+    {"name": "pyrrhic", "pattern": "SS"}
+  ]
+}

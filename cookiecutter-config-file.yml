@@ -1,0 +1,13 @@
+# This file contains values from Cookiecutter
+
+default_context:
+  project_name: "messze"
+  project_description: "Unravel the rhythm of poetry with cutting-edge analysis, bringing the art of poetic metrics into the modern era."
+  organization: "messze"
+  license: "GNU GPL v3.0"
+  minimal_python_version: 3.11
+  github_name: "cinegemadar"
+  email: "mail@davidbalogh.me"
+  version: "0.1.0"
+  line_length: "88"
+  create_example_template: "cli"
