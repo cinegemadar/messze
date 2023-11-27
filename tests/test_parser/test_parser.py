@@ -27,3 +27,10 @@ def test_drop_title():
     assert parser.title == ""
     assert parser.drop_title(lines=["   TITLE   ", "NOT TITLE"]) == ["NOT TITLE"]
     assert parser.title == "TITLE"
+
+
+def test_parse():
+    parser = messze.parser.Parser()
+    parser.parse(path="assets/tests/petofi.txt", has_title=False)
+    assert parser.title == ""
+    assert parser.corpus[0][:9] == "Szeretnek"
